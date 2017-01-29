@@ -12,6 +12,7 @@ namespace githubtest
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -19,6 +20,7 @@ namespace githubtest
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Console.WriteLine("Hej");
 
         }
     }
